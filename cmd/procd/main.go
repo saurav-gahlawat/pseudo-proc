@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	f, err := os.Open("/proc/984/stat")
+	f, err := os.Open("/proc/2676257/stat")
 	if err != nil {
 		fmt.Println("Error Opening file: ", err)
 		return
